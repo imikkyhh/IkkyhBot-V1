@@ -18,7 +18,7 @@ If you find some bugs please contact the WhatsApp number on Contact
 Open setting.js then edit & paste it in YOUR_APIKEY
 - [VHTEAR](https://api.vhtear.com)
 - [MHANKBARBAR](https://mhankbarbars.herokuapp.com/api)
-- [MELODICXT](https://tobz-api.herokuapp.com/)
+- [TOBZAPI](https://tobz-api.herokuapp.com/)
 
 Apikey Location
 - [SETTING](https://github.com/imikkyh/IkkyhBott-V1/blob/main/lib/database/setting.json)
