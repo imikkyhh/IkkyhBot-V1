@@ -204,6 +204,7 @@ after running it you need to scan the qr
 |       ✅        |   Mute                          |
 |       ✅        |   Unmute                        |
 | :-------------: | :-----------------------------: |
+
 | Owner Bot Only  |              Feature            |
 | :-------------: | :-----------------------------: |
 |       ✅        |   Leave all group               |
