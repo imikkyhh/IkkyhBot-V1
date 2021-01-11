@@ -2,31 +2,31 @@
 
 #### This script is open to anyone! If you want to add commands, please contribute / pull request! Buying and selling scripts is prohibited!
 - [Cara Penginstallan Bot](https://youtu.be/41Xj_Kg4DCM)
-- Change [ownerNumber](https://github.com/TobyG74/ElainaBOT/blob/df5caa20c74a1e76345a9664baa8dbc1b198da21/tobz.js#L248) in tobz.js to be your number
-ownerNumber = "6213xxxxxx@c.us"
-- Change [adminNumber](https://github.com/TobyG74/ElainaBOT/blob/main/lib/database/admin.json#L1) in admin.json to be your number
+- Change [ownerNumber](https://github.com/imikkyh/IkkyhBott-V1/blob/df5caa20c74a1e76345a9664baa8dbc1b198da21/tobz.js#L248) in tobz.js to be your number
+ownerNumber = "628886600839@c.us"
+- Change [adminNumber](https://github.com/imikkyh/IkkyhBott-V1/blob/main/lib/database/admin.json#L1) in admin.json to be your number
 [] -> ["62813xxxxxx@c.us"]
 
 ## Contact
 
 If you find some bugs please contact the WhatsApp number on Contact
 
-- [TELEGRAM](https://t.me/tobz2k19)
-- [WHATSAPP](https://wa.me/6281311850715)
-- [MY BOT](wa.me/447418349954)
-- [WHATSAPP GROUP](https://chat.whatsapp.com/H4dJ6YT7jDJG0xzRrB36sn)
+- [TELEGRAM](https://t.me/imikkyh)
+- [WHATSAPP](https://wa.me/628886600839)
 
 ## APIKEY
 Open setting.js then edit & paste it in YOUR_APIKEY
 - [VHTEAR](https://api.vhtear.com)
 - [MHANKBARBAR](https://mhankbarbars.herokuapp.com/api)
+- [MELODICXT](https://tobz-api.herokuapp.com/)
 
 Apikey Location
-- [SETTING](https://github.com/TobyG74/ElainaBOT/blob/main/lib/database/setting.json)
+- [SETTING](https://github.com/imikkyh/IkkyhBott-V1/blob/main/lib/database/setting.json)
 
 ## Donate
-- [Saweria](https://saweria.co/ItzTobz)
-- [Dana](https://link.dana.id/qr/17mlqta)
+- [Dana]  082241923753
+- [Ovo]   08956054884855
+- [Gopay] 08956054884855
 
 ## Getting Started
 
@@ -45,8 +45,8 @@ Note : Kalo Mau Work, Centang Kolom 1,2,3,5,6
 Clone this project
 
 ```bash
-> git clone https://github.com/TobyG74/ElainaBOT
-> cd ElainaBOT
+> git clone https://github.com/imikkyhh/IkkyhBot-V1
+> cd IkkyhBot-V1
 ```
 
 Install the dependencies:
@@ -83,7 +83,7 @@ after running it you need to scan the qr
 
 ### License
 
-- [Apache License 2.0](https://github.com/TobyG74/ElainaBOT/blob/main/LICENSE)
+- [Apache License 2.0](https://github.com/imikkyhh/IkkyhBot-V1/blob/main/LICENSE)
 
 ---
 ## 120+ Feature
@@ -175,7 +175,6 @@ after running it you need to scan the qr
 |       ✅        |   Get a random dog images       |
 |      And        |   Others...                     |
 
-
 |   Group Only    |              Feature            |
 | :-------------: | :-----------------------------: |
 |       ✅        |   Promote User                  |
@@ -204,11 +203,7 @@ after running it you need to scan the qr
 |       ✅        |   Unbanned                      |
 |       ✅        |   Mute                          |
 |       ✅        |   Unmute                        |
-
-| Owner Group Only|              Feature            |
 | :-------------: | :-----------------------------: |
-|       ✅        |   Kick All Member Group         |
-
 | Owner Bot Only  |              Feature            |
 | :-------------: | :-----------------------------: |
 |       ✅        |   Leave all group               |
