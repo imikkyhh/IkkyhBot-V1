@@ -2788,6 +2788,18 @@ ${desc}`)
                     const { logs } = call2.data
                     await tobz.sendText(from, `Logs : ${logs}` + '.')
                     break
+
+                /*case prefix + 'ytdl':
+                    if (args.length === 1) return tobz.reply(from, `Linknya mana mek`, id)
+                    let lingnya = args[1].match(/(?:https?:\/{2})?(?:w{3}\.)?youtu(?:be)?\.(?:com|be)(?:\/watch\?v=|\/)([^\s&]+)/)
+                    if (!lingnya) return tobz.reply(from, `Linknya salah blok`, id)
+                    let info = await ytdl.getInfo(VideoID);
+                    ytdl.getInfo('${args[1]}').then((res) => {
+                        const filtered = ytdl.filterFormats(res.formats, 'audioandvideo')
+                        tobz.sendFileFromUrl(from, `${args[1]}`), filtered, id)
+                    })
+            break*/
+
                 case prefix + 'ytmp4':
                     if (isReg(obj)) return
                     if (cekumur(cekage)) return
@@ -3028,7 +3040,12 @@ ${desc}`)
                         tobz.reply(from, mess.error.Yt3, id)
                     }
                     break*/
-                case prefix+'play':
+                case prefix + 'play':
+                    if (isReg(obj)) return
+                    if (cekumur(cekage)) return
+                    //if (!isPremium) return tobz.reply(from, `❗️ *Khusus Premium* ❗️\nUntuk membeli user Premium hubungi wa.me/628886600839.\nPremium 1 bulan : 10k\nJadi Admin+Premium : 15k\n\nUntuk fittur admin bisa dicek dengan ketik ${prefix}adminmenu`, id)
+                    if (!isGroupMsg) return tobz.reply(from, 'Perintah ini hanya bisa di gunakan dalam group', id)
+                    if (isLimit(serial)) return tobz.reply(from, `Maaf ${pushname}, Kuota Limit Kamu Sudah Habis, Ketik #ceklimit Untuk Mengecek Kuota Limit Kamu`, id)
                     tobz.reply(from, 'Wait..', id)
                     const getvids = await axios.get(`https://api.zeks.xyz/api/ytplaymp3?q=${body.slice(7)}&apikey=apivinz`)
                     if (getvids.data.status == false) return tobz.reply(from, getvids.data.message, id)
@@ -5033,7 +5050,7 @@ ${desc}`)
                 case prefix + 'ban':
                     if (isReg(obj)) return
                     if (cekumur(cekage)) return
-                    if (!isOwner && !isPremium) return tobz.reply(from, 'Perintah ini hanya bisa di gunakan oleh User Premium ikkkyh Bot!', id)
+                    if (!isOwner && !isAdmin) return tobz.reply(from, 'Perintah ini hanya bisa di gunakan oleh User Premium ikkkyh Bot!', id)
                     for (let i = 0; i < mentionedJidList.length; i++) {
                         if ((adminNumber).includes(mentionedJidList[i])) return tobz.reply(from, `Maaf ${pushname}, Kamu tidak bisa banned Admin Ikkyh Bot!`, id)
                         banned.push(mentionedJidList[i])
@@ -5518,7 +5535,7 @@ ${desc}`)
 ║╠❖follow https://www.instagram.com/caption.ngaliyan
 ║╚❖ Passang iklan? hubungi owner!
 ║
-║Join Grup Anime Bot 
+║Join Grup Official Ikkyh Bot 
 ║ ➣https://chat.whatsapp.com/JNVCNa8Uf8Z6NRehnZeqmX
 ╚═〘 IKKYH BOT 〙
 `, id)
